@@ -1,0 +1,17 @@
+{
+  "name": "sqllite",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "make:win": ".\\build.bat",
+    "make:linux": "chmod u+x ./build.sh && ./build.sh"
+  },
+  "devDependencies": {
+    "electron": "^19.0.9",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.11"
+  }
+}

@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+video {
+    width: 100%;
+    height: calc(100% - 50px);
+    outline: none;
+}
+
+* {
+    background-color: black;
+    color: yellow;
+  }
+  
